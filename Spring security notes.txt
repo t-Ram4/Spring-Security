@@ -1,0 +1,37 @@
+Spring Security
+
+Security--- Authentication and Authorization
+
+Spring Security framework
+
+It uses Servlet Filters
+
+It uses AOP
+
+
+@Configuration
+@EnableWebSecurity
+Java class extend  WebSecurityConfigurerAdapter
+
+public void configure(Httpsecurity http)---authorization
+
+public void configure(AuthenticationManager auth)---authentication
+1.Relational database
+2.LDAP authentication
+3.in memory authentication
+4.custom store
+
+
+
+REST API stateless
+
+we need to the userid and password every request
+
+Authentication service will create a JWT-Json Web Token and it will return to the client
+
+JWT will be sent by client on subscuent requests.
+
+
+
+
+
